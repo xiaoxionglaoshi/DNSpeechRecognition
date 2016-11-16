@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516E0F151DDBF22A0088BBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E0F141DDBF22A0088BBE8 /* AppDelegate.swift */; };
+		516E0F171DDBF22A0088BBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E0F161DDBF22A0088BBE8 /* ViewController.swift */; };
+		516E0F1A1DDBF22A0088BBE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516E0F181DDBF22A0088BBE8 /* Main.storyboard */; };
+		516E0F1C1DDBF22A0088BBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516E0F1B1DDBF22A0088BBE8 /* Assets.xcassets */; };
+		516E0F1F1DDBF22A0088BBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516E0F1D1DDBF22A0088BBE8 /* LaunchScreen.storyboard */; };
+		516E0F2A1DDBF22A0088BBE8 /* DNSpeechRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E0F291DDBF22A0088BBE8 /* DNSpeechRecognitionTests.swift */; };
+		516E0F351DDBF22A0088BBE8 /* DNSpeechRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E0F341DDBF22A0088BBE8 /* DNSpeechRecognitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		516E0F261DDBF22A0088BBE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516E0F091DDBF22A0088BBE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516E0F101DDBF22A0088BBE8;
+			remoteInfo = DNSpeechRecognition;
+		};
+		516E0F311DDBF22A0088BBE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516E0F091DDBF22A0088BBE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516E0F101DDBF22A0088BBE8;
+			remoteInfo = DNSpeechRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		516E0F111DDBF22A0088BBE8 /* DNSpeechRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNSpeechRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516E0F141DDBF22A0088BBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		516E0F161DDBF22A0088BBE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		516E0F191DDBF22A0088BBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		516E0F1B1DDBF22A0088BBE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../DNSpeechRecognition/Assets.xcassets; sourceTree = "<group>"; };
+		516E0F1E1DDBF22A0088BBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		516E0F201DDBF22A0088BBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DNSpeechRecognition/Info.plist; sourceTree = "<group>"; };
+		516E0F251DDBF22A0088BBE8 /* DNSpeechRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNSpeechRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516E0F291DDBF22A0088BBE8 /* DNSpeechRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSpeechRecognitionTests.swift; sourceTree = "<group>"; };
+		516E0F2B1DDBF22A0088BBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516E0F301DDBF22A0088BBE8 /* DNSpeechRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNSpeechRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516E0F341DDBF22A0088BBE8 /* DNSpeechRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSpeechRecognitionUITests.swift; sourceTree = "<group>"; };
+		516E0F361DDBF22A0088BBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516E0F0E1DDBF22A0088BBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E0F221DDBF22A0088BBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E0F2D1DDBF22A0088BBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516E0F081DDBF22A0088BBE8 = {
+			isa = PBXGroup;
+			children = (
+				516E0F131DDBF22A0088BBE8 /* DNSpeechRecognition */,
+				516E0F281DDBF22A0088BBE8 /* DNSpeechRecognitionTests */,
+				516E0F331DDBF22A0088BBE8 /* DNSpeechRecognitionUITests */,
+				516E0F121DDBF22A0088BBE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516E0F121DDBF22A0088BBE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516E0F111DDBF22A0088BBE8 /* DNSpeechRecognition.app */,
+				516E0F251DDBF22A0088BBE8 /* DNSpeechRecognitionTests.xctest */,
+				516E0F301DDBF22A0088BBE8 /* DNSpeechRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516E0F131DDBF22A0088BBE8 /* DNSpeechRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				516E0F141DDBF22A0088BBE8 /* AppDelegate.swift */,
+				516E0F161DDBF22A0088BBE8 /* ViewController.swift */,
+			);
+			path = DNSpeechRecognition;
+			sourceTree = "<group>";
+		};
+		516E0F281DDBF22A0088BBE8 /* DNSpeechRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				516E0F181DDBF22A0088BBE8 /* Main.storyboard */,
+				516E0F1B1DDBF22A0088BBE8 /* Assets.xcassets */,
+				516E0F1D1DDBF22A0088BBE8 /* LaunchScreen.storyboard */,
+				516E0F201DDBF22A0088BBE8 /* Info.plist */,
+				516E0F291DDBF22A0088BBE8 /* DNSpeechRecognitionTests.swift */,
+				516E0F2B1DDBF22A0088BBE8 /* Info.plist */,
+			);
+			path = DNSpeechRecognitionTests;
+			sourceTree = "<group>";
+		};
+		516E0F331DDBF22A0088BBE8 /* DNSpeechRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				516E0F341DDBF22A0088BBE8 /* DNSpeechRecognitionUITests.swift */,
+				516E0F361DDBF22A0088BBE8 /* Info.plist */,
+			);
+			path = DNSpeechRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516E0F101DDBF22A0088BBE8 /* DNSpeechRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516E0F391DDBF22A0088BBE8 /* Build configuration list for PBXNativeTarget "DNSpeechRecognition" */;
+			buildPhases = (
+				516E0F0D1DDBF22A0088BBE8 /* Sources */,
+				516E0F0E1DDBF22A0088BBE8 /* Frameworks */,
+				516E0F0F1DDBF22A0088BBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNSpeechRecognition;
+			productName = DNSpeechRecognition;
+			productReference = 516E0F111DDBF22A0088BBE8 /* DNSpeechRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		516E0F241DDBF22A0088BBE8 /* DNSpeechRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516E0F3C1DDBF22A0088BBE8 /* Build configuration list for PBXNativeTarget "DNSpeechRecognitionTests" */;
+			buildPhases = (
+				516E0F211DDBF22A0088BBE8 /* Sources */,
+				516E0F221DDBF22A0088BBE8 /* Frameworks */,
+				516E0F231DDBF22A0088BBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516E0F271DDBF22A0088BBE8 /* PBXTargetDependency */,
+			);
+			name = DNSpeechRecognitionTests;
+			productName = DNSpeechRecognitionTests;
+			productReference = 516E0F251DDBF22A0088BBE8 /* DNSpeechRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		516E0F2F1DDBF22A0088BBE8 /* DNSpeechRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516E0F3F1DDBF22A0088BBE8 /* Build configuration list for PBXNativeTarget "DNSpeechRecognitionUITests" */;
+			buildPhases = (
+				516E0F2C1DDBF22A0088BBE8 /* Sources */,
+				516E0F2D1DDBF22A0088BBE8 /* Frameworks */,
+				516E0F2E1DDBF22A0088BBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516E0F321DDBF22A0088BBE8 /* PBXTargetDependency */,
+			);
+			name = DNSpeechRecognitionUITests;
+			productName = DNSpeechRecognitionUITests;
+			productReference = 516E0F301DDBF22A0088BBE8 /* DNSpeechRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516E0F091DDBF22A0088BBE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wjn;
+				TargetAttributes = {
+					516E0F101DDBF22A0088BBE8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AN3ACWJAM4;
+						ProvisioningStyle = Automatic;
+					};
+					516E0F241DDBF22A0088BBE8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AN3ACWJAM4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 516E0F101DDBF22A0088BBE8;
+					};
+					516E0F2F1DDBF22A0088BBE8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AN3ACWJAM4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 516E0F101DDBF22A0088BBE8;
+					};
+				};
+			};
+			buildConfigurationList = 516E0F0C1DDBF22A0088BBE8 /* Build configuration list for PBXProject "DNSpeechRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516E0F081DDBF22A0088BBE8;
+			productRefGroup = 516E0F121DDBF22A0088BBE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516E0F101DDBF22A0088BBE8 /* DNSpeechRecognition */,
+				516E0F241DDBF22A0088BBE8 /* DNSpeechRecognitionTests */,
+				516E0F2F1DDBF22A0088BBE8 /* DNSpeechRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516E0F0F1DDBF22A0088BBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E0F1F1DDBF22A0088BBE8 /* LaunchScreen.storyboard in Resources */,
+				516E0F1C1DDBF22A0088BBE8 /* Assets.xcassets in Resources */,
+				516E0F1A1DDBF22A0088BBE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E0F231DDBF22A0088BBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E0F2E1DDBF22A0088BBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516E0F0D1DDBF22A0088BBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E0F171DDBF22A0088BBE8 /* ViewController.swift in Sources */,
+				516E0F151DDBF22A0088BBE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E0F211DDBF22A0088BBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E0F2A1DDBF22A0088BBE8 /* DNSpeechRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516E0F2C1DDBF22A0088BBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E0F351DDBF22A0088BBE8 /* DNSpeechRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		516E0F271DDBF22A0088BBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516E0F101DDBF22A0088BBE8 /* DNSpeechRecognition */;
+			targetProxy = 516E0F261DDBF22A0088BBE8 /* PBXContainerItemProxy */;
+		};
+		516E0F321DDBF22A0088BBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516E0F101DDBF22A0088BBE8 /* DNSpeechRecognition */;
+			targetProxy = 516E0F311DDBF22A0088BBE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		516E0F181DDBF22A0088BBE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516E0F191DDBF22A0088BBE8 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../DNSpeechRecognition;
+			sourceTree = "<group>";
+		};
+		516E0F1D1DDBF22A0088BBE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516E0F1E1DDBF22A0088BBE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../DNSpeechRecognition;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		516E0F371DDBF22A0088BBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		516E0F381DDBF22A0088BBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516E0F3A1DDBF22A0088BBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AN3ACWJAM4;
+				INFOPLIST_FILE = DNSpeechRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNSpeechRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		516E0F3B1DDBF22A0088BBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AN3ACWJAM4;
+				INFOPLIST_FILE = DNSpeechRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNSpeechRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		516E0F3D1DDBF22A0088BBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AN3ACWJAM4;
+				INFOPLIST_FILE = DNSpeechRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNSpeechRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNSpeechRecognition.app/DNSpeechRecognition";
+			};
+			name = Debug;
+		};
+		516E0F3E1DDBF22A0088BBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AN3ACWJAM4;
+				INFOPLIST_FILE = DNSpeechRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNSpeechRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNSpeechRecognition.app/DNSpeechRecognition";
+			};
+			name = Release;
+		};
+		516E0F401DDBF22A0088BBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AN3ACWJAM4;
+				INFOPLIST_FILE = DNSpeechRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNSpeechRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DNSpeechRecognition;
+			};
+			name = Debug;
+		};
+		516E0F411DDBF22A0088BBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AN3ACWJAM4;
+				INFOPLIST_FILE = DNSpeechRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNSpeechRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DNSpeechRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516E0F0C1DDBF22A0088BBE8 /* Build configuration list for PBXProject "DNSpeechRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516E0F371DDBF22A0088BBE8 /* Debug */,
+				516E0F381DDBF22A0088BBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516E0F391DDBF22A0088BBE8 /* Build configuration list for PBXNativeTarget "DNSpeechRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516E0F3A1DDBF22A0088BBE8 /* Debug */,
+				516E0F3B1DDBF22A0088BBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		516E0F3C1DDBF22A0088BBE8 /* Build configuration list for PBXNativeTarget "DNSpeechRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516E0F3D1DDBF22A0088BBE8 /* Debug */,
+				516E0F3E1DDBF22A0088BBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		516E0F3F1DDBF22A0088BBE8 /* Build configuration list for PBXNativeTarget "DNSpeechRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516E0F401DDBF22A0088BBE8 /* Debug */,
+				516E0F411DDBF22A0088BBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516E0F091DDBF22A0088BBE8 /* Project object */;
+}
